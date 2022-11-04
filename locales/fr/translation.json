@@ -1,0 +1,230 @@
+{
+  "General" : {
+    "ManagementConsulting": "Conseil en Management",
+    "PerformanceManagement":"Pilotage de la Performance",
+    "SAPConsulting": "Conseil SAP",
+    "SAPExpertise" :"Expertise SAP",
+    "Achievements": "Réalisations",
+    "Testimonies": "Témoignages",
+    "Customers" : "Clients",
+    "coinnovation": "Participation à des projets de co-innovation avec SAP",
+    "DSAG": "Membre de la D.S.A.G. (Association des Utilisateurs SAP germanophones)",
+    "DFCG":"Membre de la D.F.C.G. (Association des Directeurs Financiers et de Contrôle de Gestion)",
+    "ComplexEnvironments": "Environnements complexes"
+  },
+  "Mission" : {
+    "item1": "Créée en 2006, la société Dogon Consulting intervient notamment dans l’Industrie pour accompagner les entreprises dans la transformation de leur fonction Finance.",
+    "item2": "L’ADN de Dogon se caractérise par une double compétence Contrôle de  Gestion Industriel / Contrôle de Gestion de projets / Finance et expertise SAP.",
+    "item3": "Nos prestations sont réalisées en Français, Anglais et Allemand."
+  },
+"Stakes" : {
+  "item1": "L’accélération des opérations de croissance externe, l’évolution des normes comptables locales et internationales (IFRS 15,16) et le contrôle fiscal des comptabilités  informatisées (CFCI) exigent de la fonction Finance une transformation rapide et agile.",
+  "item2": "Les projets de digitalisation sont autant de leviers pour atteindre les objectifs fixés par les Directions Générales.",
+  "item3": "Notre expertise SAP combinée à notre expérience du Contrôle de Gestion opérationnel et de la Comptabilité vous garantissent la parfaite compréhension de vos besoins métier et leur prise en compte dans la mise en oeuvre de SAP (Modules CO/PS/FI/BI/Intégration avec la logistique)",
+  "item4": "La diversité de nos expériences notamment dans la  Pharmacie, l’Agroalimentaire et l’Aéronautique en environnement MTS, MTO, ATO, CTO, ETO nous permet de gérer la complexité de vos projets.",
+  "item5": "Nous intervenons sur les flux transverses qui nécessitent une approche globale.",
+  "item6": "Nos interventions constituent une passerelle entre les métiers de la finance et les SI."
+  },
+"ManagementConsulting": {
+    "title": "Conseil en Management et Pilotage de la Performance",
+    "offer": "Nous proposons de faciliter la mise en oeuvre de la Stratégie et d’améliorer le Pilotage de la Performance en harmonisant, simplifiant et fiabilisant les processus suivants :",
+    "bullet1": "Réalisation du Plan Stratégique et du Budget, Re-prévisions,",
+    "bullet2": "Revue des Processus Opérationnels et de leurs impacts en comptabilité et Contrôle de Gestion (normes locales et normes IFRS),",
+    "bullet3": "Pilotage des clôtures mensuelles et annuelles, Reporting, aide à la décision et mesure de la performance (KPI’s et KRI’s),",
+    "bullet4": "Tableau de bord prospectif,",
+    "bullet5": "Externalisation des fonctions Contrôle de Gestion et Finance.",
+    "Budget": {
+      "title": "Plan Stratégique et Budget, Re-prévisions, Simulations",
+      "item1": "Le plan stratégique matérialise la mise en  oeuvre détaillée de la stratégie et précède l’élaboration budgétaire. Nous proposons de rationaliser ces processus en limitant les traitements manuels, en facilitant les re-prévisions, simulations et en harmonisant les indicateurs.",
+      "item2": "Nos recommandations portent sur le calcul des coûts standards et des prix de transfert dans leurs dimensions opérationnelles, financières et fiscales."
+    },
+    "Governance": {
+      "title": "Gouvernance, harmonisation des processus comptables et opérationnels, Contrôle Interne",
+      "item1": "La cartographie des processus doit être créée à un niveau de granularité pertinent pour l’ensemble des acteurs.",
+      "item2": "Un référentiel unique doit être défini pour gérer les  données de base comptables (harmonisation du Plan Comptable), de Contrôle de Gestion, de Production, …",
+      "item3": "Nous analysons les processus transverses souvent difficiles à maitriser (flux logistiques complexes : co-produits, sous-produits, rebuts, retours, fabrication à la commande avec configurateur…)",
+      "item4": "Nous proposons d’analyser leur impact sur la gestion des stocks et la rentabilité des produits.",
+      "item5": "Nos interventions visent à mettre en évidence les risques comptables et fiscaux en aidant à la  constitution du FEC (Fichier des Ecritures Comptables), d’une PAF (Piste d’Audit Fiable) et en assurant la maîtrise des flux inter-compagnies.",
+      "item6": "Nous préconisons la mise en oeuvre de Best Practices reposant à la fois sur le standard SAP et sur une approche empirique."
+    },
+    "Closing": {
+      "title": "Amélioration du Pilotage de la Clôture",
+      "item1": "Le processus de Clôture cadence l’activité comptable et de Contrôle de Gestion mais comporte encore trop de retraitements.",
+      "item2": "La réduction de la durée de Clôture (Fast Close) est un enjeu majeur tout autant que la qualité des données reçues et envoyées.",
+      "item3": "Nous réduisons les délais et la non qualité de la Clôture en l’industrialisant:",
+      "bullet1": "Rédaction d’une procédure de clôture,",
+      "bullet2": "Automatisation des tâches."
+    },
+    "Reporting": {
+      "title": "Reporting, aide à la décision et mesure de la performance",
+      "item1": "Mesurer la performance repose sur des données de plus en plus complexes et des environnements volatils.",
+      "item2": "Les contrôleurs de gestion et comptables doivent se focaliser sur l’analyse et non sur la saisie et le retraitement des données.",
+      "item3": "Nous proposons des solutions pour:",
+      "bullet1": "Collecter et fiabiliser les données nécessaires à l’élaboration du reporting. Nous préconisons le recours à une palette d’outils pour vérifier l’intégrité des données de bases,",
+      "bullet2": "Définir des tableaux de bord, la documentation et le choix des indicateurs : facturation à l‘avancement, marges, en-cours projet, provisions, EBIT…",
+      "bullet3": "Anticiper les adaptations nécessaires pour répondre aux nouvelles normes IFRS 15&16&17, aux  recommandations de l’OCDE : BEPS (Base Erosion and Profit Shifting) et CBCR (Country By Country Reporting)",
+      "bullet4": "Proposer des outils adaptés en termes de coûts, de complexité et d’appropriation par l’utilisateur."
+    },
+    "Outsourcing": {
+      "title": "Externalisation des fonctions Contrôle de Gestion et Finance",
+      "item1": "Notre intervention consiste à vous assister pour tout ou partie de ces fonctions:",
+      "bullet1": "Création d’un poste,",
+      "bullet2": "Remplacement temporaire d’un collaborateur."
+    }
+},
+"SAPConsulting": {
+    "title": "Conseil et Intégration SAP",
+    "offer": "La compétence de Dogon Consulting est déterminante pour :",
+    "bullet1": "Garantir la qualité du recueil des besoins métier,",
+    "bullet2": "Maîtriser les interdépendances entre modules,",
+    "bullet3": "Garantir la complétude du périmètre projet,",
+    "bullet4": "Utiliser les fonctionnalités avancées de SAP plutôt que de développer des programmes spécifiques",
+    "Audit": {
+      "title": "Audit fonctionnel de solutions SAP",
+      "item1": "us analysons les processus et mettons en oeuvre  des outils comme les BPML (Business Process Master List) dans SAP pour faciliter ces analyses en conformité avec les exigences du Contrôle Interne.",
+      "item2": "Nous proposons une revue des données de base qui ont un impact financier.",
+      "item3": "Nous analysons la pertinence du paramétrage et vous conseillons sur le remplacement par le standard de solutions spécifiques.",
+      "item4": "Nous envisageons avec vous la pertinence de montées de version, de l’intégration de nouveaux modules ou produits en privilégiant simplicité et pragmatisme."
+    },
+    "SAPExpertise": {
+      "title": "Expertise fonctionnelle SAP",
+      "item1": "Dogon Consulting propose des interventions sur des points de blocage ou de conseil sur des  sujets critiques  ou transverses durant toutes les phase d’un projet, par exemple:",
+      "bullet1": "Expliquer les fonctionnalités avancées du lissage de marge dans PS,",
+      "bullet2": "Intégrer automatiquement les résultats de la PLT dans le module CO à partir d’APO et/ou PP,",
+      "bullet3": "Gérer les itérations du budget grâce à des outils adaptés (EPM / ECC)",
+      "bullet4": "Proposer des fonctionnalités avancées pour le calcul des coûts standards, évaluer et expliquer la constitution des écarts industriels avec ou sans le ledger articles,",
+      "bullet5": "Fiabiliser des flux par la mise en oeuvre notamment de programmes SAP de contrôle et de  réconciliation inter-modules (FI/COPA,FI/MM…),",
+      "bullet6": "Aboutir à une synthèse de l’activité grâce à l’élaboration d’un P&L budgété par famille de produits dans le module COPA."
+    },
+    "Deployment": {
+      "title": "Déploiement (modules  FI/CO/PS/BI)",
+      "item1": " sommes en mesure d’intervenir durant toutes les phases du projet comme consultant  CO/PS/FI ou Integration Manager (responsable des flux transverses) avec FI/SD/MM/PP/PP-PI/CS/BI/PM/APO.",
+      "item2": "Pour le reporting en temps réel, nous proposons des solutions standards de reporting dans ECC avec les fonctionnalités avancées de Report Painter / Writer quand les modules plus récents ne sont pas installés."
+    },
+    "Training": {
+      "title": "Training",
+      "item1": "Notre offre couvre des formations sur mesure pour utilisateurs de tous niveaux en Français, Anglais, Allemand sur site ou à distance."
+    }
+},
+"Achievements": {
+    "title": "Quelques réalisations",
+    "type":"Type d’intervention",
+    "sector":"Secteur d’activité",
+    "mission":"Mission",
+    "1": {
+        "type":"Audit, transformation de la fonction Finance",
+        "sector":"Manufacturing of underwater cables, MTS environnement",
+        "Mission": {
+            "title": "Réaliser un audit du système SAP FI /CO/PS à la demande du Directeur de la Transformation Financière",
+            "item1": "Résultats obtenus:",
+            "bullet1": "Amélioration du référentiel comptable : gouvernance, harmonisation des processus,",
+            "bullet2": "Amélioration du reporting: mise en place d’un nouveau rapport permettant une mesure précise de la performance des projets,",
+            "bullet3": "Mise en place d’une solution de lissage de marge complexe pour automatiser un processus auparavant manuel,",
+            "bullet4": "Recommandations métier/organisationnel/SAP pour l’amélioration de la clôture."
+        }
+    },
+    "2": {
+        "type":"Expertise SAP",
+        "sector":"Construction de grues, environnement MTO avec configurateur",
+        "Mission": {
+            "bullet1": "Résoudre un problème de valorisation de stocks erronée et un problème de comptabilisation inexacte d’un flux inter-compagnies,",
+            "bullet2": "Résultats obtenus : résolution en 10 jours de ces deux points de blocage grâce à la méthodologie d’intervention Dogon Consulting."
+        }
+    },
+    "3": {
+        "type":"Responsable du Contrôle de Gestion",
+        "sector":"Industrie pharmaceutique",
+        "Mission": {
+            "item1": "Elaboration du Plan Stratégique et Budget, création de tableaux de bord pour le Comité de Direction et reporting mensuel."
+        }
+    },
+    "4": {
+        "type":"Déploiement SAP / Consultant COPC & COPA & intégration BI. Reporting pour mesure de la performance",
+        "sector":"Equipement électrique",
+        "Mission": {
+            "item1": "Animation d’ateliers pour la collecte des besoins du reporting BI:",
+            "bullet1": "Productivité matière: intégration FI/CO/MM,",
+            "bullet2": "Productivité du travail: intégration CO/CATS/PP,",
+            "bullet3": "Prix de transfert,",
+            "bullet4": "Impact des écarts de change,",
+            "item2": "Calcul et simulation de coûts standards dans les différents types de fabrication."
+        }
+    },
+    "5": {
+        "type":"Mise en place de PS (réalisé en Allemagne en langue allemande)",
+        "sector":"Industrie Automobile",
+        "Mission": {
+            "title": "Mise en place de PS en conformité avec les normes IFRS 15 et mise en place du budget dans CO-PA."
+        }
+    },
+    "6": {
+        "type":"Support pour la phase de conception détaillée COPC et intégration FI/MM/BI/APO",
+        "sector":"Industrie Agroalimentaire",
+        "Mission": {
+            "bullet1": "Mise en place de fonctionnalités SAP avancées pour le calcul des coûts standards,",
+            "bullet2": "Elaboration de procédures de clôture,",
+            "bullet3": "Formation des key users sur l’analyse des écarts dans SAP."
+        }
+    },
+    "7": {
+        "type":"Support pour la phase de conception détaillée (CO-PC, CO-PA, PS)",
+        "sector":"Défense",
+        "Mission": {
+            "bullet1": "Conception détaillée pour la mise en place de PS en conformité avec les normes IFRS 15 (intégration avec CO-PC, new GL et CO-PA),",
+            "bullet2": "Recommandations pour la mise en place d’une solution SAP pour gérer les écarts entre les versions baseline et EAC du budget."
+        }
+    },
+    "8": {
+        "type":"Déploiement (FI, COPC, Material ledger, COPA, PS), intégration avec BI",
+        "sector":"Pharmacie",
+        "Mission": {
+            "bullet1": "Déploiement sur 1 site de production,",
+            "bullet2": "Expert Finance et responsable de la coordination des processus pour un projet stratégique de mise en place de KPIs financiers (ECC/BI). Sponsor: Sponsor: Direction Générale, Scope: Scope: 10 plateformes SAP sur un périmètre mondial."
+        }
+    }
+  },
+    "Testimonies": {
+        "title": "La voix de nos Clients",
+        "1": {
+            "name": "JOEL MAHAUT",
+            "role": "Operations Director Itelligence France",
+            "period": "22 Janvier 2019, Joël a managé Aida.",
+            "item1": "Dans la mise en œuvre de SAP sur le site pilote de l’équipementier Stäubli à Lyon, Aida s’est intégrée à l’équipe pour mener à bien la mise en place des fonctions « contrôle de gestion industriel » avec le module CO complet.",
+            "item2": "Elle a fait preuve de beaucoup de pédagogie pour donner de l’autonomie aux key users sur les nouveaux outils et les nouveaux concepts. Ce fut une réussite dans un contexte métier complexe et des délais contraints."
+        },
+        "2": {
+            "name": "DAVID CUCINOTTA",
+            "role": "Contrôleur de gestion industriel Staubli",
+            "period": "11 Avril 2018, David était un client d’Aida.",
+            "item1": "Aida a s’est impliquée dans de nombreux projets en tant que consultante SAP FI-CO. J’ai réellement apprécié son professionnalisme, son aptitude à capter les besoins utilisateur, sa réactivité et sa bonne humeur même face aux obstacles.",
+            "item2": "Je pense sincèrement qu’Aida est un modèle de tout ce qu’un consultant peut apporter à un projet SAP."
+        },
+        "3": {
+            "name": "SMAIL BOUADJAMA",
+            "role": "SAP Senior Consultant /Project Manager Thalès",
+            "period": "9 Mars 2018, Smail était un client d’Aida.",
+            "item1": "Lors de notre grand projet de migration à l’IFRS 15 j’ai eu l’opportunité de travailler avec Aida. Elle était intervenue pour prendre en charge le volet CO-PA avec un focus particulier sur notre filiale allemande. Ça a été une très belle expérience et au delà une belle rencontrehumaine. Aida dans un contexte difficile avec un objectif de démarrage intangible (janv 2018) a su prendre haut la main tous ses sujets et tenir ses objectifs. Pugnace, d’un esprit très didactique elle a beaucoup contribué à la réussite de notre projet.",
+            "item2": "Nous ferons appel à nouveau à Aida dès qu’une nouvelle opportunité se présentera car c’est une garantie de réussite de notre projet !"
+        },
+        "4": {
+            "name": "OUMA AGALHEIR",
+            "role": "My Travel Concur Program Manager at Sanofi",
+            "period": "8 Novembre 2019, Ouma était une cliente d’Aida.",
+            "item1": "Aida est une consultante très professionnelle avec une connaissance approfondie de la Finance et une forte expertise SAP. Aida nous a aidé à prioriser nos activités projet et a livré notre tableau de bord en respectant les délais."
+        },
+        "5": {
+            "name": "CELINE MOUSSIT",
+            "role": "Directrice comptable Air France",
+            "period": "18 Avril 2020, Céline était une cliente de Cécile.",
+            "item1": "Grâce à ses connaissances comptables, son expertise SAP et son accessibilité, Cécile appréhende rapidement les problématiques qui lui sont confiées par les business users. Travail approfondi, prise en charge efficace et avec autonomie : que du bonheur !",
+            "item2": "Un grand merci en particulier Cécile pour nous avoir accompagné sur la mise en place des outils IFRS16 chez Air France. Un vrai challenge qui restera dans les mémoires !"
+        },
+        "6": {
+            "name": "SARAH BASTIN",
+            "role": "Implementation Manager Air France",
+            "period": "19 Septembre 2019, Sarah était une client de Cécile.",
+            "item1": "Cela fut un réel plaisir de travailler avec Cécile sur la mise en place de la plateforme C2FO. Son expertise en Finance, comptabilité et ERP a été déterminante pour le succès du projet.",
+            "item2": "Cécile s’est montrée digne de confiance et fiable jusqu’à la fin du projet. Mais surtout, Cécile a été d’une compagnie fort agréable !"
+        }
+    }
+}
