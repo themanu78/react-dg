@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-dg/static/css/main.f3e71dc7.css",
-    "main.js": "/react-dg/static/js/main.280a068a.js",
+    "main.css": "/react-dg/static/css/main.4509e7d5.css",
+    "main.js": "/react-dg/static/js/main.e2f96b70.js",
     "static/media/do.svg": "/react-dg/static/media/do.64a9810e7d07e3af7412.svg",
     "static/media/rs.svg": "/react-dg/static/media/rs.3b67d7bed888271edff6.svg",
     "static/media/bo.svg": "/react-dg/static/media/bo.1155c3da4861424ea8ff.svg",
@@ -262,11 +262,11 @@
     "static/media/pl.svg": "/react-dg/static/media/pl.9400273de5d060652ce7.svg",
     "static/media/de.svg": "/react-dg/static/media/de.7e82f4c71df5fc78abbb.svg",
     "static/media/bd.svg": "/react-dg/static/media/bd.d16830cba55e113c5888.svg",
-    "main.f3e71dc7.css.map": "/react-dg/static/css/main.f3e71dc7.css.map",
-    "main.280a068a.js.map": "/react-dg/static/js/main.280a068a.js.map"
+    "main.4509e7d5.css.map": "/react-dg/static/css/main.4509e7d5.css.map",
+    "main.e2f96b70.js.map": "/react-dg/static/js/main.e2f96b70.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3e71dc7.css",
-    "static/js/main.280a068a.js"
+    "static/css/main.4509e7d5.css",
+    "static/js/main.e2f96b70.js"
   ]
 }
