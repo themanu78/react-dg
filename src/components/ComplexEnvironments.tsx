@@ -8,6 +8,7 @@ import { BrowserRouter, Link } from "react-router-dom";
 import FreeShuttle from "/assets/free-shuttle.png";
 import "../i18n";
 import { useTranslation } from "react-i18next";
+import Marquee from "react-fast-marquee";
 
 import "../scss/styles.scss";
 
@@ -30,7 +31,7 @@ function ComplexEnvironments() {
           </Col>
         </Row>
       </Container>
-      <Container className="mt-1 pt-5">
+      <Container className="mt-1 pt-4">
         <Row className="gx-1 g-lg-1 ">
           <Col>
             <img
@@ -39,7 +40,7 @@ function ComplexEnvironments() {
               alt=""
               loading="lazy"
             />
-            <h1> {t("General.ComplexEnvironments").toString()} </h1>
+            <h3> {t("General.ComplexEnvironments").toString()} </h3>
             <hr />
             <p> {t("Stakes.item3").toString()} </p>
             <p> {t("Stakes.item4").toString()} </p>

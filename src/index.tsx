@@ -10,7 +10,9 @@ import Achievements from "./components/Achievements";
 import Testimonies from "./components/Testimonies";
 import Customers from "./components/Customers";
 import Footer from "./components/Footer";
-import './i18n';
+import { BrowserRouter } from "react-router-dom";
+
+import "./i18n";
 
 import "./scss/styles.scss";
 
@@ -21,17 +23,18 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Suspense fallback="loading">
-      <NavigationBar />
-      <TopPage />
-      <DgMission />
-      <ComplexEnvironments />
-      <ManagementConsulting />
-      <SAPConsulting />
-      <Achievements />
-      <Testimonies />
-      <Customers />
-      <Footer />
+      <BrowserRouter basename={process.env.REACT_APP_ROUTER_BASENAME}>
+        <NavigationBar />
+        <TopPage />
+        <DgMission />
+        <ComplexEnvironments />
+        <ManagementConsulting />
+        <SAPConsulting />
+        <Achievements />
+        <Testimonies />
+        <Customers />
+        <Footer />
+      </BrowserRouter>
     </Suspense>
   </React.StrictMode>
 );
-

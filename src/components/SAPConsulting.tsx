@@ -31,8 +31,8 @@ function SAPConsulting() {
         </Row>
       </Container>
 
-      <Container className="mt-5 pt-5">
-        <Row className="gx-1 g-lg-1">
+      <Container className="mt-4 pt-4">
+        <Row >
           <Col>
             <img
               src={process.env.PUBLIC_URL + "/assets/free-magnifying-glass.png"}
@@ -49,7 +49,7 @@ function SAPConsulting() {
           </Col>
         </Row>
       </Container>
-      <Container className="mt-5 pt-5">
+      <Container className="mt-4 pt-4">
         <Row className="gx-1 g-lg-1 ">
           <Col>
             <h3>{t("SAPConsulting.SAPExpertise.title").toString()} </h3>
@@ -67,7 +67,7 @@ function SAPConsulting() {
         </Row>
       </Container>
 
-      <Container className="mt-5 pt-5">
+      <Container className="mt-4 pt-4">
         <Row className="gx-1 g-lg-1">
           <Col>
             <h3>{t("SAPConsulting.Deployment.title").toString()}</h3>
@@ -78,7 +78,7 @@ function SAPConsulting() {
         </Row>
       </Container>
 
-      <Container className="mt-5 pt-5">
+      <Container className="mt-4 pt-4">
         <Row className="gx-1 g-lg-1">
           <Col>
             <h3> {t("SAPConsulting.Training.title").toString()} </h3>

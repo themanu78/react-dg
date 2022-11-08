@@ -35,7 +35,7 @@ function ManagementConsulting() {
         </Row>
       </Container>
 
-      <Container className="mt-5 pt-5">
+      <Container className="mt-4 pt-4">
         <Row className="gx-1 g-lg-1">
           <Col>
             <img
@@ -51,7 +51,7 @@ function ManagementConsulting() {
           </Col>
         </Row>
       </Container>
-      <Container className="mt-5 pt-5">
+      <Container className="mt-4 pt-4">
         <Row className="gx-1 g-lg-1 ">
           <Col>
             <img
@@ -72,7 +72,7 @@ function ManagementConsulting() {
         </Row>
       </Container>
 
-      <Container className="mt-5 pt-5">
+      <Container className="mt-4 pt-4">
         <Row className="gx-1 g-lg-1">
           <Col>
             <img
@@ -94,12 +94,12 @@ function ManagementConsulting() {
         </Row>
       </Container>
 
-      <Container className="mt-5 pt-5">
+      <Container className="mt-4 pt-4">
         <Row className="gx-1 g-lg-1">
           <Col>
             <img
               src={process.env.PUBLIC_URL + "/assets/free-charts.png"}
-              className="free-charts float-md-end me-3 me-md-5"
+              className="free-charts float-md-end ms-3 ms-md-5"
               alt=""
               loading="lazy"
             />
@@ -118,7 +118,7 @@ function ManagementConsulting() {
         </Row>
       </Container>
 
-      <Container className="mt-5 pt-5">
+      <Container className="mt-4 pt-4">
         <Row className="gx-1 g-lg-1">
           <Col>
             <h3> {t("ManagementConsulting.Outsourcing.title").toString()}</h3>

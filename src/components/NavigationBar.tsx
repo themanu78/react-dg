@@ -14,6 +14,8 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import Form from "react-bootstrap/Form";
 import DogonIcon from "/assets/black_icon_white_background.png";
 import FlagIcon from "./FlagIcon";
+import { BrowserRouter } from "react-router-dom";
+
 // import i18n from "i18next";
 import "../i18n";
 import { useTranslation } from "react-i18next";
@@ -42,7 +44,7 @@ function NavigationBar() {
   };
 
   return (
-    <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar className="navigation-bar" fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container fluid>
         <div className="d-flex"></div>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

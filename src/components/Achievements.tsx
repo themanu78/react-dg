@@ -11,15 +11,12 @@ import { useTranslation } from "react-i18next";
 
 import "../scss/styles.scss";
 
+// not used yet...
 function Achievement(i: number) {
   const [t, i18n] = useTranslation();
   var items: string[] = t("Achievements." + String(i) + ".Mission", {
     returnObjects: true,
   });
-
-  console.log("FOOOOOOOOOOOOOOOOOOOOOOOO");
-  console.log(typeof items);
-  console.log(items);
 
   return (
     <Table responsive striped bordered hover variant="dark">
@@ -50,12 +47,14 @@ function Achievements() {
     <div className="achievements" id="Achievements">
       <Container className="mt-1 pt-2">
         <h2>{t("Achievements.title").toString()} </h2> <hr />
-        <Table responsive striped bordered hover variant="dark">
-          <tbody>
+        <Table  responsive striped bordered hover variant="dark">
+          <thead>
             <tr>
-              <td className="bold">{t("Achievements.type").toString()} </td>
-              <td className="bold">{t("Achievements.1.type").toString()} </td>
+              <th className="focus">{t("Achievements.type").toString()}</th>
+              <th className="focus">{t("Achievements.1.type").toString()}</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td>{t("Achievements.sector").toString()}</td>
               <td>{t("Achievements.1.sector").toString()}</td>
@@ -78,8 +77,8 @@ function Achievements() {
             </tr>
 
             <tr>
-              <td className="bold">{t("Achievements.type").toString()} </td>
-              <td className="bold">{t("Achievements.2.type").toString()} </td>
+              <td className="focus">{t("Achievements.type").toString()} </td>
+              <td className="focus">{t("Achievements.2.type").toString()} </td>
             </tr>
             <tr>
               <td>{t("Achievements.sector").toString()}</td>
@@ -99,8 +98,8 @@ function Achievements() {
             </tr>
 
             <tr>
-              <td className="bold">{t("Achievements.type").toString()} </td>
-              <td className="bold">{t("Achievements.3.type").toString()} </td>
+              <td className="focus">{t("Achievements.type").toString()} </td>
+              <td className="focus">{t("Achievements.3.type").toString()} </td>
             </tr>
             <tr>
               <td>{t("Achievements.sector").toString()}</td>
@@ -115,8 +114,8 @@ function Achievements() {
             </tr>
 
             <tr>
-              <td className="bold">{t("Achievements.type").toString()} </td>
-              <td className="bold">{t("Achievements.4.type").toString()} </td>
+              <td className="focus">{t("Achievements.type").toString()} </td>
+              <td className="focus">{t("Achievements.4.type").toString()} </td>
             </tr>
             <tr>
               <td>{t("Achievements.sector").toString()}</td>
@@ -140,8 +139,8 @@ function Achievements() {
             </tr>
 
             <tr>
-              <td className="bold">{t("Achievements.type").toString()} </td>
-              <td className="bold">{t("Achievements.5.type").toString()} </td>
+              <td className="focus">{t("Achievements.type").toString()} </td>
+              <td className="focus">{t("Achievements.5.type").toString()} </td>
             </tr>
             <tr>
               <td>{t("Achievements.sector").toString()}</td>
@@ -156,8 +155,8 @@ function Achievements() {
             </tr>
 
             <tr>
-              <td className="bold">{t("Achievements.type").toString()} </td>
-              <td className="bold">{t("Achievements.6.type").toString()} </td>
+              <td className="focus">{t("Achievements.type").toString()} </td>
+              <td className="focus">{t("Achievements.6.type").toString()} </td>
             </tr>
             <tr>
               <td>{t("Achievements.sector").toString()}</td>
@@ -178,15 +177,15 @@ function Achievements() {
             </tr>
 
             <tr>
-              <td className="bold">{t("Achievements.type").toString()} </td>
-              <td className="bold">{t("Achievements.7.type").toString()} </td>
+              <td className="focus">{t("Achievements.type").toString()} </td>
+              <td className="focus">{t("Achievements.7.type").toString()} </td>
             </tr>
             <tr>
               <td>{t("Achievements.sector").toString()}</td>
               <td>{t("Achievements.7.sector").toString()}</td>
             </tr>
             <tr>
-              <td>{t("Achievements.mission").toString()}</td>
+              <td className="light">{t("Achievements.mission").toString()}</td>
               <td>
                 <ul>
                   <li>{t("Achievements.7.Mission.bullet1").toString()}</li>
@@ -199,15 +198,15 @@ function Achievements() {
             </tr>
 
             <tr>
-              <td className="bold">{t("Achievements.type").toString()} </td>
-              <td className="bold">{t("Achievements.8.type").toString()} </td>
+              <td className="focus">{t("Achievements.type").toString()} </td>
+              <td className="focus">{t("Achievements.8.type").toString()} </td>
             </tr>
             <tr>
               <td>{t("Achievements.sector").toString()}</td>
               <td>{t("Achievements.8.sector").toString()}</td>
             </tr>
             <tr>
-              <td>{t("Achievements.mission").toString()}</td>
+              <td className="light">{t("Achievements.mission").toString()}</td>
               <td>
                 <ul>
                   <li>{t("Achievements.8.Mission.bullet1").toString()}</li>

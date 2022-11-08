@@ -1,15 +1,9 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-size: 27px;
 }
 
 html {
@@ -29,12 +23,26 @@ video {
   z-index: -1;
 }
 
+.navigation-bar {
+  font-size: clamp(8px, 3vw, 20px);
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+}
+
+.news {
+  h3 {
+    color: gold !important;
+    font-style: italic;
+    font-size: clamp(10px, 6vw, 30px);
+    font-weight: bold;
+  }
+}
 .overlay {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.4);
   left: 0;
   width: 100%;
   height: 100%;
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
 
   h1 {
     font-size: clamp(20px, 4vw, 50px);
@@ -61,6 +69,10 @@ video {
   .dogon-logo {
     width: clamp(80px, 15vw, 160px);
   }
+  .champagne {
+    width: clamp(30px, 10vw, 80px);
+
+  }
 
   .badge-container {
     background: rgba(0, 0, 0, 0.3);
@@ -75,7 +87,9 @@ video {
 
 .dg-mission {
   background: rgba(38, 34, 34, 0.7);
-  box-shadow: 0 0 2rem -0.5rem black;
+  // box-shadow: 0 0 2rem -0.5rem black;
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+
   h3 {
     font-size: clamp(10px, 3vw, 25px);
     // font-weight: bold;
@@ -86,22 +100,33 @@ video {
 .complex-environments {
   // background:whitesmoke;
   margin: 2em 0;
-  padding: 5em;
+  padding: 2em;
   align-content: center;
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+
   p {
-    font-size: clamp(8px, 3vw, 15px);
+    font-size: clamp(8px, 3vw, 17px);
     // font-weight: bold;
     color: #303030;
+    line-height: 140%;
   }
   h1 {
     font-size: clamp(8px, 3vw, 25px);
   }
+  h3 {
+    font-size: clamp(9px, 4vw, 25px);
+    font-weight: bold;
+
+    color: #303030;
+  }
+
   hr {
     border: none;
     width: 10%;
     background: brown;
     height: 4px;
   }
+
   .free-legal {
     width: clamp(100px, 10vw, 600px);
 
@@ -118,7 +143,9 @@ video {
 .management-consulting {
   background: #2f2f2f;
   margin: 2em 0;
-  padding: 5em;
+  padding: 2em;
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+
   //align-content: center;
   ul {
     list-style-position: inside;
@@ -130,6 +157,7 @@ video {
     font-size: clamp(8px, 3vw, 17px);
     // font-weight: bold;
     color: whitesmoke;
+    line-height: 140%;
   }
   h2 {
     font-size: clamp(15px, 5vw, 35px);
@@ -137,7 +165,9 @@ video {
     color: rgb(255, 250, 250);
   }
   h3 {
-    font-size: clamp(8px, 3vw, 25px);
+    font-size: clamp(9px, 4vw, 25px);
+    font-weight: bold;
+
     color: whitesmoke;
   }
 
@@ -148,7 +178,7 @@ video {
     height: 4px;
   }
   .free-automation {
-    width: clamp(150px, 30vw, 500px);
+    width: clamp(150px, 30vw, 400px);
 
     // shape-outside: ellipse();
   }
@@ -160,7 +190,7 @@ video {
   }
 
   .free-hourglass {
-    width: clamp(150px, 30vw, 500px);
+    width: clamp(150px, 30vw, 420px);
   }
 
   .free-charts {
@@ -171,18 +201,20 @@ video {
 .SAP-consulting {
   background: whitesmoke;
   margin: 2em 0;
-  padding: 5em;
+  padding: 2em;
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+
   //align-content: center;
   ul {
     list-style-position: inside;
     text-align: left;
   }
-
   p,
   li {
     font-size: clamp(8px, 3vw, 17px);
     // font-weight: bold;
     color: #303030;
+    line-height: 140%;
   }
   h2 {
     font-size: clamp(15px, 5vw, 35px);
@@ -190,10 +222,11 @@ video {
     color: #303030;
   }
   h3 {
-    font-size: clamp(8px, 3vw, 25px);
+    font-size: clamp(9px, 4vw, 25px);
+    font-weight: bold;
+
     color: #303030;
   }
-
   hr {
     border: none;
     width: 10%;
@@ -210,31 +243,26 @@ video {
 .achievements {
   background: #2f2f2f;
   margin: 2em 0;
-  padding: 5em;
+  padding: 2em;
   font-size: clamp(8px, 3vw, 17px);
+  text-align: left;
+  color: whitesmoke;
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+
   //align-content: center;
+  .focus {
+    color: gold;
+    // font-style: italic;
+    font-weight: bold;
+  }
   ul {
     list-style-position: outside;
     text-align: left;
   }
-  p,
-  li {
-    font-size: clamp(8px, 3vw, 17px);
-    // font-weight: bold;
-    color: whitesmoke;
-    text-align: left;
-  }
-  .bold {
-    font-weight: bold;
-  }
   h2 {
     font-size: clamp(15px, 5vw, 35px);
     font-weight: bold;
-    color: rgb(255, 250, 250);
-  }
-  h3 {
-    font-size: clamp(8px, 3vw, 25px);
-    color: whitesmoke;
+    color: #fffafa;
   }
   hr {
     border: none;
@@ -247,8 +275,10 @@ video {
 .testimonies {
   background: whitesmoke;
   margin: 2em 0;
-  padding: 5em;
+  padding: 2em;
   //align-content: center;
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+
   ul {
     list-style-position: inside;
     text-align: left;
@@ -261,6 +291,7 @@ video {
     font-size: clamp(8px, 3vw, 17px);
     // font-weight: bold;
     color: #303030;
+    line-height: 140%;
   }
   h2 {
     font-size: clamp(15px, 5vw, 35px);
@@ -268,7 +299,9 @@ video {
     color: #303030;
   }
   h3 {
-    font-size: clamp(8px, 3vw, 25px);
+    font-size: clamp(9px, 4vw, 25px);
+    font-weight: bold;
+
     color: #303030;
   }
   h4 {
@@ -289,6 +322,11 @@ video {
 }
 
 .customers {
+  background: whitesmoke;
+  margin: 2em 0;
+  padding: 2em;
+  //align-content: center;
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
   hr {
     border: none;
     width: 10%;
@@ -309,12 +347,13 @@ video {
   }
 }
 
-
 .footer {
   background: #2f2f2f;
   padding: 1.5em;
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+
   p {
-    font-size: clamp(8px, 3vw, 17px);
+    font-size: clamp(6px, 3vw, 17px);
     font-weight: bold;
     color: whitesmoke;
     text-align: left;

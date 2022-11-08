@@ -10,7 +10,9 @@
     "coinnovation": "Participation à des projets de co-innovation avec SAP",
     "DSAG": "Membre de la D.S.A.G. (Association des Utilisateurs SAP germanophones)",
     "DFCG":"Membre de la D.F.C.G. (Association des Directeurs Financiers et de Contrôle de Gestion)",
-    "ComplexEnvironments": "Environnements complexes"
+    "ComplexEnvironments": "Environnements complexes",
+    "news1": "La double compétence de Dogon expertise en Finance/Contrôle de Gestion & SAP lui a permis de décrocher un des plus gros projets SAP S/4HANA au monde (100k utilisateurs, …)",
+    "news2": "Notre client nous a renouvelé sa confiance pour la 2ème année consécutive."
   },
   "Mission" : {
     "item1": "Créée en 2006, la société Dogon Consulting intervient notamment dans l’Industrie pour accompagner les entreprises dans la transformation de leur fonction Finance.",
@@ -81,7 +83,7 @@
     "bullet4": "Utiliser les fonctionnalités avancées de SAP plutôt que de développer des programmes spécifiques",
     "Audit": {
       "title": "Audit fonctionnel de solutions SAP",
-      "item1": "us analysons les processus et mettons en oeuvre  des outils comme les BPML (Business Process Master List) dans SAP pour faciliter ces analyses en conformité avec les exigences du Contrôle Interne.",
+      "item1": "Nous analysons les processus et mettons en oeuvre  des outils comme les BPML (Business Process Master List) dans SAP pour faciliter ces analyses en conformité avec les exigences du Contrôle Interne.",
       "item2": "Nous proposons une revue des données de base qui ont un impact financier.",
       "item3": "Nous analysons la pertinence du paramétrage et vous conseillons sur le remplacement par le standard de solutions spécifiques.",
       "item4": "Nous envisageons avec vous la pertinence de montées de version, de l’intégration de nouveaux modules ou produits en privilégiant simplicité et pragmatisme."
